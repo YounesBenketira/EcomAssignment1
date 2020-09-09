@@ -1,0 +1,43 @@
+﻿body {
+    height:100%;
+    width:100%;
+}
+
+#divHeader {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+#divBody {
+    width: 100%;
+    height: 500px;
+    background-color: orange;
+}
+
+#divFooter {
+    width: 100%;
+    height: 20px;
+    text-align: left;
+    background-color: deepskyblue;
+}
+
+#divBodyTitle {
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: black;
+}
+
+#divBodyImage {
+    width: 100%;
+    height: 450px;
+    color: white;
+}
+
+#bodyImg {
+    margin-top:10px;
+    width: 100%;
+    height: 100%;
+}

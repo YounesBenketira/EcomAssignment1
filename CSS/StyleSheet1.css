@@ -1,5 +1,5 @@
 ﻿body {
-    width:100%;
+    width: 100%;
 }
 
 #divHeader {
@@ -14,19 +14,21 @@
     height: 40px;
 }
 
-#divTitle{
+#divTitle {
     width: 100%;
     height: 40px;
+    background-color: black;
+    color: white;
 }
 
 #panelBody {
     width: 100%;
-    height: 430px;
+    height: 500px;
 }
 
-#divHomeImage{
-    height: 300px;
-    width:100%;
+#divHomeImage {
+    height: 350px;
+    width: 100%;
 }
 
 #imgHomeImage {
@@ -34,8 +36,10 @@
     width: 100%;
 }
 
-#labelHomeImage{
+#labelHomeImage {
     position: absolute;
-    width:100%;
-    top:50%;
+    width: 100%;
+    top: 38%;
+    text-align: center;
+    font-size: 50px;
 }

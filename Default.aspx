@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/StyleSheet1.css" rel="stylesheet" type="text/css" />
 </head>
 <body style="height: 548px; margin-bottom: 12px">
     <form id="form1" runat="server">
@@ -18,7 +18,7 @@
         </asp:Panel>
         <asp:Panel ID="panelBody" runat="server" Height="430px">
             <div id="divHomeImage">
-                <asp:Label ID="labelHomeImage" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="labelHomeImage" runat="server" Text="Explore Africa"></asp:Label>
                 <asp:Image ID="imgHomeImage" runat="server" />
             </div>
                 </asp:Panel>

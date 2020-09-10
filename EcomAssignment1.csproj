@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\DBContent.mdf" />
+    <Content Include="App_Data\DBContent_log.ldf">
+      <DependentUpon>DBContent.mdf</DependentUpon>
+    </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="StyleSheet1.css" />

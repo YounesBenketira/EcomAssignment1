@@ -9,18 +9,19 @@
 </head>
 <body style="height: 548px; margin-bottom: 12px">
     <form id="form1" runat="server">
-        <div id="divHeader">
-            Home&nbsp; About Pages Gallery Blog Contact</div>
-        <div id="divBody">
-            <div id="divBodyTitle" style="height: 40px">
-                Safari Adventure<br />
-                <div id="divBodyImage">
-                    <asp:Image ID="bodyImg" runat="server" ImageAlign="Middle" />
+        <asp:Panel ID="panelHeader" runat="server" Height="80px">
+            <div id="divNavigation" style="height: 40px">
+                <a href="Default.aspx">Home</a> About Pages Gallery Blog <a href="Contact.aspx">Contact</a></div>
+            <div id="divTitle">
+                Safari Adventure
                 </div>
+        </asp:Panel>
+        <asp:Panel ID="panelBody" runat="server" Height="430px">
+            <div id="divHomeImage">
+                <asp:Label ID="labelHomeImage" runat="server" Text="Label"></asp:Label>
+                <asp:Image ID="imgHomeImage" runat="server" />
             </div>
-        </div>
-        <div id="divFooter">
-        </div>
+                </asp:Panel>
     </form>
 </body>
 </html>

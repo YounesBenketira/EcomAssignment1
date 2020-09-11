@@ -33,6 +33,15 @@ namespace EcomAssignment1
         protected global::System.Web.UI.WebControls.Panel panelHeader;
 
         /// <summary>
+        /// worldIcon control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image worldIcon;
+
+        /// <summary>
         /// panelBody control.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace EcomAssignment1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label labelHomeImage;
+
+        /// <summary>
+        /// labelHomeImage2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label labelHomeImage2;
 
         /// <summary>
         /// imgHomeImage control.

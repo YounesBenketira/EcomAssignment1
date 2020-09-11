@@ -7,18 +7,21 @@
     <title></title>
     <link href="CSS/StyleSheet1.css" rel="stylesheet" type="text/css" />
 </head>
-<body style="height: 548px; margin-bottom: 12px">
+<body style="height: 600px">
     <form id="form1" runat="server">
-        <asp:Panel ID="panelHeader" runat="server" Height="80px">
-            <div id="divNavigation" style="height: 40px">
-                <a href="Default.aspx">Home</a> About Pages Gallery Blog <a href="Contact.aspx">Contact</a></div>
+        <asp:Panel ID="panelHeader" runat="server">
+            <div id="divNavigation">
+                <a href="Default.aspx">Home</a> <a>About</a> <a>Pages</a> <a>Gallery</a> <a>Blog</a> <a href="Contact.aspx">Contact</a></div>
             <div id="divTitle">
-                Safari Adventure
-                </div>
+                <p id="title">
+                    <asp:Image ID="worldIcon" runat="server" ImageUrl="~/Images/worldIcon.png" Width="21px" />
+                    &nbsp;Safari Adventure</p>
+            </div>
         </asp:Panel>
-        <asp:Panel ID="panelBody" runat="server" Height="430px">
+        <asp:Panel ID="panelBody" runat="server">
             <div id="divHomeImage">
                 <asp:Label ID="labelHomeImage" runat="server" Text="Explore Africa"></asp:Label>
+                <asp:Label ID="labelHomeImage2" runat="server" Text="During Amazing Safari Tours!"></asp:Label>
                 <asp:Image ID="imgHomeImage" runat="server" />
             </div>
                 </asp:Panel>

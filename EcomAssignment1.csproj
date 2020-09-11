@@ -74,6 +74,7 @@
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="CSS\StyleSheet1.css" />
+    <Content Include="Images\background.png" />
     <Content Include="Images\cheeta.jpeg" />
     <Content Include="Images\elephants.jpg" />
     <Content Include="Images\hippo.jpg" />

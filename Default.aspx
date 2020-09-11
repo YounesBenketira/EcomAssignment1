@@ -11,20 +11,27 @@
     <form id="form1" runat="server">
         <asp:Panel ID="panelHeader" runat="server">
             <div id="divNavigation">
-                <a href="Default.aspx">Home</a> <a>About</a> <a>Pages</a> <a>Gallery</a> <a>Blog</a> <a href="Contact.aspx">Contact</a></div>
+                <a href="Default.aspx">Home</a> <a>About</a> <a>Pages</a> <a>Gallery</a> <a>Blog</a> <a href="Contact.aspx">Contact</a>
+            </div>
             <div id="divTitle">
                 <p id="title">
                     <asp:Image ID="worldIcon" runat="server" ImageUrl="~/Images/worldIcon.png" Width="21px" />
-                    &nbsp;Safari Adventure</p>
+                    &nbsp;Safari Adventure
+                </p>
             </div>
         </asp:Panel>
         <asp:Panel ID="panelBody" runat="server">
+            <div id="divInformation">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             <div id="divHomeImage">
                 <asp:Label ID="labelHomeImage" runat="server" Text="Explore Africa"></asp:Label>
                 <asp:Label ID="labelHomeImage2" runat="server" Text="During Amazing Safari Tours!"></asp:Label>
-                <asp:Image ID="imgHomeImage" runat="server" />
+                <asp:Image ID="imgHomeImage" runat="server" ImageAlign="Top" />
             </div>
-                </asp:Panel>
+        </asp:Panel>
     </form>
 </body>
 </html>

@@ -1,31 +1,39 @@
 ﻿body {
     width: 80%;
-    margin:0;
+    margin: 0;
     padding-left: 10%;
+    background-image: url("../Images/background.png");
+    background-color: #cccccc;
 }
 
 #panelHeader {
     position: relative;
     width: 100%;
-}
-
-#divHeader {
-    width: 100%;
-    height: 30px;
-    text-align: center;
-    background-color: white;
+    padding-top: 10px;
 }
 
 #divNavigation {
     position: relative;
     width: 100%;
-    height: 50px;
+    height: 70px;
+    align-content: space-between;
+    background-color: #f2f2f2;
 }
 
-#divNavigation a {
-    position: relative;
-    font-size: 25px;
-}
+    #divNavigation a {
+        position: relative;
+        font-size: 22.5px;
+        display: inline-block;
+        padding: 23px 15px;
+        margin: 0px 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+        #divNavigation a:hover {
+            background-color: #d1d1d1;
+            color: black;
+        }
 
 #divTitle {
     width: 100%;
@@ -33,58 +41,78 @@
     background-color: black;
     color: white;
     position: relative;
+    padding: 0;
+    margin: 0;
 }
 
-#title{
-    position: absolute;
-    margin-left: 40px;
-    margin-top: 16px;
-    font-size:25px;
-}
+    #title {
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 16px;
+        font-size: 25px;
+    }
 
-#worldIcon {
-    position: relative;
-    top: 2px;
-    left: 0px;
-    height: 24px;
-    width: 30px;
-}
+    #worldIcon {
+        position: relative;
+        top: 2px;
+        left: 0px;
+        height: 24px;
+        width: 30px;
+    }
 
 #panelBody {
     position: relative;
     width: 100%;
-    height: 900px;
-    background-color: rebeccapurple;
+    height: 1300px;
 }
 
 #divHomeImage {
     position: relative;
-    height: 600px;
+    height: 700px;
     width: 100%;
     top: 1px;
     left: 0px;
 }
 
-#imgHomeImage {
-    height: 100%;
+    #imgHomeImage {
+        height: 100%;
+        width: 100%;
+    }
+
+    #labelHomeImage {
+        position: absolute;
+        width: 100%;
+        top: 35%;
+        text-align: center;
+        font-size: 75px;
+        font-weight: bold;
+        color: white;
+    }
+
+    #labelHomeImage2 {
+        position: absolute;
+        width: 100%;
+        top: 48%;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+
+#divInformation {
+    position: absolute;
+    z-index: 1;
     width: 100%;
+    height: 400px;
+    margin-top: 600px;
+    /*background-color:aqua;*/
 }
 
-#labelHomeImage {
-    position: absolute;
-    width: 100%;
-    top: 38%;
-    text-align: center;
-    font-size: 75px;
-    font-weight: bold;
-    color: white;
-}
-
-#labelHomeImage2 {
-    position: absolute;
-    width: 100%;
-    top: 52%;
-    text-align: center;
-    font-size: 40px;
-    color: white;
-}
+    #divInformation div {
+        position: relative;
+        display: inline-block;
+        width: 400px;
+        height: 550px;
+        /* padding: 23px 15px; */
+        margin-left: 80px;
+        background-color: white;
+    }

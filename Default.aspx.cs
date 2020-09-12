@@ -10,7 +10,6 @@ namespace EcomAssignment1
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            imgHomeImage.ImageUrl = "Images/cheeta.jpeg";
             // Create a connection
             string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=\App_Data\DBContent.mdf;Integrated Security=True";
             try

@@ -77,7 +77,7 @@
     <Content Include="Images\background.png" />
     <Content Include="Images\cheeta.jpeg" />
     <Content Include="Images\elephants.jpg" />
-    <Content Include="Images\hippo.jpg" />
+    <Content Include="Images\Monkey.jpg" />
     <Content Include="Images\wierdDeers.jpg" />
     <Content Include="Images\worldIcon.png" />
     <Content Include="Web.config" />

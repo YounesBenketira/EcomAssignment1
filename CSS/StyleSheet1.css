@@ -1,7 +1,7 @@
 ﻿body {
-    width: 80%;
+    width: 75%;
     margin: 0;
-    padding-left: 10%;
+    padding-left: 12.5%;
     background-image: url("../Images/background.png");
     background-color: #cccccc;
 }
@@ -45,25 +45,25 @@
     margin: 0;
 }
 
-    #title {
-        position: absolute;
-        margin-left: 40px;
-        margin-top: 16px;
-        font-size: 25px;
-    }
+#title {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 16px;
+    font-size: 25px;
+}
 
-    #worldIcon {
-        position: relative;
-        top: 2px;
-        left: 0px;
-        height: 24px;
-        width: 30px;
-    }
+#worldIcon {
+    position: relative;
+    top: 2px;
+    left: 0px;
+    height: 24px;
+    width: 30px;
+}
 
 #panelBody {
     position: relative;
     width: 100%;
-    height: 1300px;
+    height: 1200px;
 }
 
 #divHomeImage {
@@ -74,45 +74,109 @@
     left: 0px;
 }
 
-    #imgHomeImage {
-        height: 100%;
-        width: 100%;
-    }
+#imgHomeImage {
+    height: 100%;
+    width: 100%;
+}
 
-    #labelHomeImage {
-        position: absolute;
-        width: 100%;
-        top: 35%;
-        text-align: center;
-        font-size: 75px;
-        font-weight: bold;
-        color: white;
-    }
+#labelHomeImage {
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    text-align: center;
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
 
-    #labelHomeImage2 {
-        position: absolute;
-        width: 100%;
-        top: 48%;
-        text-align: center;
-        font-size: 40px;
-        color: white;
-    }
+#labelHomeImage2 {
+    position: absolute;
+    width: 100%;
+    top: 48%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
 
 #divInformation {
     position: absolute;
     z-index: 1;
     width: 100%;
     height: 400px;
-    margin-top: 600px;
+    margin-top: 618px;
     /*background-color:aqua;*/
 }
 
-    #divInformation div {
-        position: relative;
-        display: inline-block;
-        width: 400px;
-        height: 550px;
-        /* padding: 23px 15px; */
-        margin-left: 80px;
-        background-color: white;
+.infoCard {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 580px;
+    /* padding: 23px 15px; */
+    margin-left: 52.5px;
+    background-color: white;
+}
+
+    .infoCard div {
+        width: 100%;
+        height: 10px;
+        background-color: orange;
     }
+
+.infoCardHeader {
+    position: relative;
+    display: inline-block;
+    color: darkorange;
+    text-align: center;
+    font-size: 30px;
+    margin: 5% 12%;
+    font-weight: bold;
+}
+
+.infoCardImage {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    height: 250px;
+}
+
+.infoCardTitle {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 25px 35px;
+}
+
+.infoCardDesc {
+    display: inline-block;
+    font-size: 19px;
+    color: grey;
+    margin-left: 35px;
+    width: 80%;
+}
+
+.infoCardBtn {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 80px;
+    height: 35px;
+    background-color: darkorange;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 20px;
+}
+
+.infoCardBtn:hover {
+    background-color: orangered;
+}
+
+#backgroundInfo {
+    position:absolute;
+    z-index: 0;
+    margin-top: 700px;
+    width:100%;
+    height: 497px;
+    background-color:cornsilk;
+}

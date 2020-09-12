@@ -54,6 +54,9 @@
                 <asp:Label ID="labelHomeImage" runat="server" Text="Explore Africa"></asp:Label>
                 <asp:Label ID="labelHomeImage2" runat="server" Text="During Amazing Safari Tours!"></asp:Label>
                 <asp:Image ID="imgHomeImage" runat="server" ImageAlign="Top" ImageUrl="~/Images/Monkey.jpg" />
+                <asp:Button runat="server" CssClass="slideShowBtns" ID="slide1" OnClick="SlideOnePressed"/>
+                <asp:Button runat="server" CssClass="slideShowBtns" ID="slide2" OnClick="SlideTwoPressed"/>
+                <asp:Button runat="server" CssClass="slideShowBtns" ID="slide3" OnClick="SlideThreePressed"/>
             </div>
         </asp:Panel>
     </form>

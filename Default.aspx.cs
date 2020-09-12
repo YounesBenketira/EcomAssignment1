@@ -7,9 +7,27 @@ namespace EcomAssignment1
     public partial class Default : System.Web.UI.Page
     {
         SqlConnection contentConnection;
+        private int slideShowImageIndex = 2;
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            switch (slideShowImageIndex)
+            {
+                case 0: // Monkey
+                    imgHomeImage.ImageUrl = "~/Images/elephants.jpg";
+                    slide1.BackColor = System.Drawing.Color.OrangeRed;
+                    break;
+                case 1:
+                    imgHomeImage.ImageUrl = "~/Images/wierdDeers.jpg";
+                    slide2.BackColor = System.Drawing.Color.OrangeRed;
+                    break;
+                case 2:
+                    imgHomeImage.ImageUrl = "~/Images/Monkey.jpg";
+                    slide3.BackColor = System.Drawing.Color.OrangeRed;
+                    break;
+                default:
+                    break;
+            }
             // Create a connection
             string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=\App_Data\DBContent.mdf;Integrated Security=True";
             try
@@ -60,6 +78,30 @@ namespace EcomAssignment1
                     System.Diagnostics.Debug.WriteLine(se.Message);
                 }
             }
+        }
+
+        protected void SlideOnePressed(object sender, EventArgs e)
+        {
+            imgHomeImage.ImageUrl = "~/Images/elephants.jpg";
+            slide1.BackColor = System.Drawing.Color.OrangeRed;
+            slide2.BackColor = System.Drawing.Color.White;
+            slide3.BackColor = System.Drawing.Color.White;
+        }
+
+        protected void SlideTwoPressed(object sender, EventArgs e)
+        {
+            imgHomeImage.ImageUrl = "~/Images/wierdDeers.jpg";
+            slide2.BackColor = System.Drawing.Color.OrangeRed;
+            slide1.BackColor = System.Drawing.Color.White;
+            slide3.BackColor = System.Drawing.Color.White;
+        }
+
+        protected void SlideThreePressed(object sender, EventArgs e)
+        {
+            imgHomeImage.ImageUrl = "~/Images/Monkey.jpg";
+            slide3.BackColor = System.Drawing.Color.OrangeRed;
+            slide2.BackColor = System.Drawing.Color.White;
+            slide1.BackColor = System.Drawing.Color.White;
         }
     }
 }

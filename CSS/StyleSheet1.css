@@ -92,10 +92,35 @@
 #labelHomeImage2 {
     position: absolute;
     width: 100%;
-    top: 48%;
+    top: 45%;
     text-align: center;
     font-size: 40px;
     color: white;
+}
+
+.slideShowBtns{
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    border: none;
+    height: 4px;
+    padding: 0px 35px;
+    margin-bottom: 120px;
+    margin-right: 62px;
+}
+
+#slide1 {
+
+}
+
+#slide2 {
+    margin-right:140px;
+}
+
+#slide3 {
+    margin-right: 220px;
 }
 
 #divInformation {
@@ -103,7 +128,7 @@
     z-index: 1;
     width: 100%;
     height: 400px;
-    margin-top: 718px;
+    margin-top: 717px;
     /*background-color:aqua;*/
 }
 

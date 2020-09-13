@@ -69,12 +69,30 @@ namespace EcomAssignment1
         protected global::System.Web.UI.WebControls.Label lblFormDesc;
 
         /// <summary>
-        /// txtEntryMsg control.
+        /// txtEntryName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEntryMsg;
+        protected global::System.Web.UI.WebControls.TextBox txtEntryName;
+
+        /// <summary>
+        /// txtEntryEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtEntryEmail;
+
+        /// <summary>
+        /// txtEntryPhone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtEntryPhone;
     }
 }

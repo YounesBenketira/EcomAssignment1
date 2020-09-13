@@ -28,25 +28,25 @@
                 <div id="divAddress">
                     <asp:Label runat="server" CssClass="lblInfoHeaders">ADDRESS:</asp:Label>
                     <asp:Label runat="server" CssClass="lblInfoDesc">
-                        <i></i>
+                        <i class="fa fa-home" style="color:orange;"></i>
                         138 Atlantis Ln Kingsport Illinois 121164
                     </asp:Label>
                 </div>
                 <div id="divPhones">
                     <asp:Label runat="server" CssClass="lblInfoHeaders">PHONES:</asp:Label>
                     <asp:Label runat="server" CssClass="lblInfoDesc">
-                        <i></i>
+                        <i class="fa fa-phone" style="color:orange;"></i>
                          800-2345-6789
                     </asp:Label>
                     <asp:Label runat="server" CssClass="lblInfoDesc">
-                        <i></i>
+                        <i class="fa fa-fax" style="color:orange;"></i>
                          800-2345-6789
                     </asp:Label>
                 </div>
                 <div id="divEmail">
                     <asp:Label runat="server" CssClass="lblInfoHeaders">EMAIL:</asp:Label>
                     <asp:Label runat="server" CssClass="lblInfoDesc">
-                        <i></i>
+                        <i class="fa fa-envelope" style="color:orange;"></i>
                         <a href=""> mail@demolink.org</a>
                     </asp:Label>
                     <asp:Label runat="server" CssClass="lblInfoDesc">
@@ -56,14 +56,18 @@
             </div>
             <div id="divContactForm">
                 <div id="divFormHeader">
-                    <asp:Label runat="server" ID="lblFormHeader"></asp:Label>
-                    <asp:Label runat="server" ID="lblFormDesc"></asp:Label>
+                    <asp:Label runat="server" ID="lblFormHeader">MISCELLANEOUS INFORMATION:</asp:Label>
+                    <asp:Label runat="server" ID="lblFormDesc">Email us with any questions or inquiries or use our contact data.</asp:Label>
                 </div>
                 <div id="divFormEntries">
-                    <asp:TextBox runat="server" CssClass="txtEntries"></asp:TextBox>
-                    <asp:TextBox runat="server" CssClass="txtEntries"></asp:TextBox>
-                    <asp:TextBox runat="server" CssClass="txtEntries"></asp:TextBox>
-                    <asp:TextBox runat="server" CssClass="txtEntries" ID="txtEntryMsg"></asp:TextBox>
+                    <asp:TextBox runat="server" CssClass="txtEntries" ID="txtEntryName"></asp:TextBox>
+                    <asp:TextBox runat="server" CssClass="txtEntries" ID="txtEntryEmail"></asp:TextBox>
+                    <asp:TextBox runat="server" CssClass="txtEntries" ID="txtEntryPhone"></asp:TextBox>
+                    <textarea class="txtEntries" id="txtEntryMsg" placeholder="Message"></textarea>
+                </div>
+                <div id="divBtns">
+                    <asp:Button runat="server" Text="Send" CssClass="btnForm" />
+                    <asp:Button runat="server" Text="Clear" CssClass="btnForm" />
                 </div>
 
             </div>

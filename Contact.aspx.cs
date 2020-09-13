@@ -11,7 +11,9 @@ namespace EcomAssignment1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            txtEntryName.Attributes.Add("placeholder", "Name");
+            txtEntryEmail.Attributes.Add("placeholder", "Email");
+            txtEntryPhone.Attributes.Add("placeholder", "Phone");
         }
     }
 }

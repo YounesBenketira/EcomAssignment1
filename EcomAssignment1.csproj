@@ -72,6 +72,7 @@
       <DependentUpon>DBContent.mdf</DependentUpon>
     </Content>
     <Content Include="Contact.aspx" />
+    <Content Include="CSS\StyleSheet2.css" />
     <Content Include="Default.aspx" />
     <Content Include="CSS\StyleSheet1.css" />
     <Content Include="Images\background.png" />

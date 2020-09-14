@@ -19,7 +19,7 @@ namespace EcomAssignment1
 
         public static SqlConnection TextDatabase()
         {
-            if (connection == null)
+            if (connection == null || connection.State == ConnectionState.Closed)
             {
                 // Create a connection
                 string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\DBContent.mdf;Integrated Security=True";
@@ -56,13 +56,13 @@ namespace EcomAssignment1
         }
         public static WebText RetrieveText(int id)
         {
-            if(connection == null)
+            if(connection == null || connection.State == ConnectionState.Closed)
             {
                 TextDatabase();
             }
 
             // Ensure the database connection exists before querying it
-            if (connection != null)
+            if (connection != null && connection.State == ConnectionState.Open)
             {
                 SqlCommand cmd = connection.CreateCommand();
                 cmd.CommandType = CommandType.Text;
@@ -81,6 +81,8 @@ namespace EcomAssignment1
 
                     return new WebText(title, head, desc);
                 }
+
+                connection.Close();
             }
 
             // No database connection, or no valid ID

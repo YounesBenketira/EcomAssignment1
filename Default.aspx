@@ -17,7 +17,7 @@
             <div id="divTitle">
                 <p id="title">
                     <asp:Image ID="worldIcon" runat="server" ImageUrl="~/Images/worldIcon.png" Width="21px" />
-                    &nbsp;Safari Adventure
+                    &nbsp;<asp:Label runat="server" id="titleDesc" Text=""></asp:Label>
                 </p>
                 <i class="fa fa-search" id="searchIcon"></i>
             </div>
@@ -27,26 +27,26 @@
             <div id="divInformation">
                 <div class="infoCard">
                     <div></div>
-                    <asp:Label runat="server" id="infoCardHeader" Text="" CssClass="infoCardHeader"></asp:Label>
+                    <asp:Label runat="server" id="cardHeader0" Text="" CssClass="infoCardHeader"></asp:Label>
                     <asp:Image runat="server" CssClass="infoCardImage" ImageUrl="~/Images/wierdDeers.jpg" />
-                    <asp:Label runat="server" id="infoCardTitle" Text="" CssClass="infoCardTitle"></asp:Label>
-                    <asp:Label runat="server" id="infoCardDesc" Text="" CssClass="infoCardDesc"></asp:Label>
+                    <asp:Label runat="server" id="cardTitle0" Text="" CssClass="infoCardTitle"></asp:Label>
+                    <asp:Label runat="server" id="cardDesc0" Text="" CssClass="infoCardDesc"></asp:Label>
                     <asp:Label runat="server" Text="more" CssClass="infoCardBtn"></asp:Label>
                 </div>
                 <div class="infoCard">
                     <div></div>
-                    <asp:Label runat="server" Text="Best Time to Visit" CssClass="infoCardHeader"></asp:Label>
+                    <asp:Label runat="server" id="cardHeader1" Text="" CssClass="infoCardHeader"></asp:Label>
                     <asp:Image runat="server" CssClass="infoCardImage" ImageUrl="~/Images/elephants.jpg" />
-                    <asp:Label runat="server" Text="Plan your african Safari with us" CssClass="infoCardTitle"></asp:Label>
-                    <asp:Label runat="server" Text="Our company offers comprehensive information on African travel, your worries will be gone with our talented tour guides that are highly educated." CssClass="infoCardDesc"></asp:Label>
+                    <asp:Label runat="server" id="cardTitle1" Text="" CssClass="infoCardTitle"></asp:Label>
+                    <asp:Label runat="server" id="cardDesc1" Text="" CssClass="infoCardDesc"></asp:Label>
                     <asp:Label runat="server" Text="more" CssClass="infoCardBtn"></asp:Label>
                 </div>
                 <div class="infoCard">
                     <div></div>
-                    <asp:Label runat="server" Text="Big Cat Safaris" CssClass="infoCardHeader"></asp:Label>
+                    <asp:Label runat="server" id="cardHeader2" Text="" CssClass="infoCardHeader"></asp:Label>
                     <asp:Image runat="server" CssClass="infoCardImage" ImageUrl="~/Images/cheeta.jpeg" />
-                    <asp:Label runat="server" Text="Explore Africa's unique safari" CssClass="infoCardTitle"></asp:Label>
-                    <asp:Label runat="server" Text="The variety of beauty of African will take your breath away... be it a wildlife safari or a relaxing beach holiay on Zimbabwe, you have many choices." CssClass="infoCardDesc"></asp:Label>
+                    <asp:Label runat="server" id="cardTitle2" Text="" CssClass="infoCardTitle"></asp:Label>
+                    <asp:Label runat="server" id="cardDesc2" Text="" CssClass="infoCardDesc"></asp:Label>
                     <asp:Label runat="server" Text="more" CssClass="infoCardBtn"></asp:Label>
                 </div>
             </div>

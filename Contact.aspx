@@ -18,7 +18,7 @@
             <div id="divTitle">
                 <p id="title">
                     <asp:Image ID="worldIcon" runat="server" ImageUrl="~/Images/worldIcon.png" Width="21px" />
-                    &nbsp;Safari Adventure
+                    &nbsp;<asp:Label runat="server" ID="titleDesc" Text=""></asp:Label>
                 </p>
                 <i class="fa fa-search" id="searchIcon"></i>
             </div>
@@ -29,25 +29,25 @@
                     <asp:Label runat="server" CssClass="lblInfoHeaders">ADDRESS:</asp:Label>
                     <asp:Label runat="server" CssClass="lblInfoDesc">
                         <i class="fa fa-home" style="color:orange;"></i>
-                        138 Atlantis Ln Kingsport Illinois 121164
+                        <asp:Label runat="server" ID="lblAddress" Text=""></asp:Label>
                     </asp:Label>
                 </div>
                 <div id="divPhones">
                     <asp:Label runat="server" CssClass="lblInfoHeaders">PHONES:</asp:Label>
                     <asp:Label runat="server" CssClass="lblInfoDesc">
                         <i class="fa fa-phone" style="color:orange;"></i>
-                         800-2345-6789
+                         <asp:Label runat="server" ID="lblPhone" Text=""></asp:Label>
                     </asp:Label>
                     <asp:Label runat="server" CssClass="lblInfoDesc">
                         <i class="fa fa-fax" style="color:orange;"></i>
-                         800-2345-6789
+                         <asp:Label runat="server" ID="lblFax" Text=""></asp:Label>
                     </asp:Label>
                 </div>
                 <div id="divEmail">
                     <asp:Label runat="server" CssClass="lblInfoHeaders">EMAIL:</asp:Label>
                     <asp:Label runat="server" CssClass="lblInfoDesc">
                         <i class="fa fa-envelope" style="color:orange;"></i>
-                        <a href=""> mail@demolink.org</a>
+                        <a href=""><asp:Label runat="server" ID="lblEmail" Text=""></asp:Label></a>
                     </asp:Label>
                     <asp:Label runat="server" CssClass="lblInfoDesc">
                         Download information as: <a href="">vCard</a>

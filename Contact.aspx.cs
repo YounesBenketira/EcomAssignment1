@@ -14,6 +14,19 @@ namespace EcomAssignment1
             txtEntryPhone.Attributes.Add("placeholder", "Phone");
 
             connection = WebText.TextDatabase();
+
+            // Title line
+            titleDesc.Text = WebText.RetrieveText(4).Desc;
+
+            // Address, phone, fax
+            WebText contact = WebText.RetrieveText(5);
+            lblAddress.Text = contact.Header;
+            lblPhone.Text = contact.Title;
+            lblFax.Text = contact.Desc;
+
+            // Email
+            WebText email = WebText.RetrieveText(6);
+            lblEmail.Text = email.Header;
         }
         protected void Page_Unload(object sender, EventArgs e)
         {

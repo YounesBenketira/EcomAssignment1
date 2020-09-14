@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Web.UI.WebControls;
 
 namespace EcomAssignment1
 {
@@ -28,11 +29,22 @@ namespace EcomAssignment1
                     break;
             }
 
-            // Card example, pulling text from database
-            WebText infoCardOne = WebText.RetrieveText(1);
-            infoCardHeader.Text = infoCardOne.Header;
-            infoCardDesc.Text = infoCardOne.Desc;
-            infoCardTitle.Text = infoCardOne.Title;
+            // Card labels
+            Label[] cardLabels = new Label[] { cardHeader0, cardHeader1, cardHeader2, cardTitle0, cardTitle1, cardTitle2, cardDesc0, cardDesc1, cardDesc2 };
+            for(int i = 0; i < 3; i++)
+            {
+                WebText cardText = WebText.RetrieveText(i + 1);
+                cardLabels[i].Text = cardText.Header;
+                cardLabels[i + 3].Text = cardText.Title;
+                cardLabels[i + 6].Text = cardText.Desc;
+            }
+
+            // Main Title
+            WebText homeText = WebText.RetrieveText(4);
+            labelHomeImage.Text = homeText.Header;
+            labelHomeImage2.Text = homeText.Title;
+            titleDesc.Text = homeText.Desc;
+
         }
         protected void Page_Unload(object sender, EventArgs e)
         {

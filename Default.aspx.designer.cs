@@ -42,6 +42,15 @@ namespace EcomAssignment1
         protected global::System.Web.UI.WebControls.Image worldIcon;
 
         /// <summary>
+        /// titleDesc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label titleDesc;
+
+        /// <summary>
         /// panelBody control.
         /// </summary>
         /// <remarks>
@@ -51,31 +60,85 @@ namespace EcomAssignment1
         protected global::System.Web.UI.WebControls.Panel panelBody;
 
         /// <summary>
-        /// infoCardHeader control.
+        /// cardHeader0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label infoCardHeader;
+        protected global::System.Web.UI.WebControls.Label cardHeader0;
 
         /// <summary>
-        /// infoCardTitle control.
+        /// cardTitle0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label infoCardTitle;
+        protected global::System.Web.UI.WebControls.Label cardTitle0;
 
         /// <summary>
-        /// infoCardDesc control.
+        /// cardDesc0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label infoCardDesc;
+        protected global::System.Web.UI.WebControls.Label cardDesc0;
+
+        /// <summary>
+        /// cardHeader1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label cardHeader1;
+
+        /// <summary>
+        /// cardTitle1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label cardTitle1;
+
+        /// <summary>
+        /// cardDesc1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label cardDesc1;
+
+        /// <summary>
+        /// cardHeader2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label cardHeader2;
+
+        /// <summary>
+        /// cardTitle2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label cardTitle2;
+
+        /// <summary>
+        /// cardDesc2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label cardDesc2;
 
         /// <summary>
         /// labelHomeImage control.

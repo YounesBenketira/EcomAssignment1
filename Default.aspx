@@ -27,10 +27,10 @@
             <div id="divInformation">
                 <div class="infoCard">
                     <div></div>
-                    <asp:Label runat="server" Text="Unusual Holidays" CssClass="infoCardHeader"></asp:Label>
+                    <asp:Label runat="server" id="infoCardHeader" Text="" CssClass="infoCardHeader"></asp:Label>
                     <asp:Image runat="server" CssClass="infoCardImage" ImageUrl="~/Images/wierdDeers.jpg" />
-                    <asp:Label runat="server" Text="Spend a weekend with us" CssClass="infoCardTitle"></asp:Label>
-                    <asp:Label runat="server" Text="When you boook your holiday with Safari Adventure Co. you can rest assured that you are fully taken care of so your hard earned holiday money is secure." CssClass="infoCardDesc"></asp:Label>
+                    <asp:Label runat="server" id="infoCardTitle" Text="" CssClass="infoCardTitle"></asp:Label>
+                    <asp:Label runat="server" id="infoCardDesc" Text="" CssClass="infoCardDesc"></asp:Label>
                     <asp:Label runat="server" Text="more" CssClass="infoCardBtn"></asp:Label>
                 </div>
                 <div class="infoCard">

@@ -51,6 +51,33 @@ namespace EcomAssignment1
         protected global::System.Web.UI.WebControls.Panel panelBody;
 
         /// <summary>
+        /// infoCardHeader control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label infoCardHeader;
+
+        /// <summary>
+        /// infoCardTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label infoCardTitle;
+
+        /// <summary>
+        /// infoCardDesc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label infoCardDesc;
+
+        /// <summary>
         /// labelHomeImage control.
         /// </summary>
         /// <remarks>

@@ -61,13 +61,13 @@
                 </div>
                 <div id="divFormEntries">
                     <asp:TextBox runat="server" CssClass="txtEntries" ID="txtEntryName"></asp:TextBox>
-                    <asp:TextBox runat="server" CssClass="txtEntries" ID="txtEntryEmail"></asp:TextBox>
-                    <asp:TextBox runat="server" CssClass="txtEntries" ID="txtEntryPhone"></asp:TextBox>
-                    <textarea class="txtEntries" id="txtEntryMsg" placeholder="Message"></textarea>
-                </div>
+                    <asp:TextBox runat="server" CssClass="txtEntries" ID="txtEntryEmail" TextMode="Email"></asp:TextBox>
+                    <asp:TextBox runat="server" CssClass="txtEntries" ID="txtEntryPhone" TextMode="Phone"></asp:TextBox>
+                    <asp:TextBox runat="server" CssClass="txtEntries" ID="txtEntryMsg" TextMode="MultiLine"></asp:TextBox>
+&nbsp;</div>
                 <div id="divBtns">
-                    <asp:Button runat="server" Text="Send" CssClass="btnForm" />
-                    <asp:Button runat="server" Text="Clear" CssClass="btnForm" />
+                    <asp:Button runat="server" Text="Send" CssClass="btnForm" ID="btnSendContact" OnClick="btnSendContact_Click" />
+                    <asp:Button runat="server" Text="Clear" CssClass="btnForm" ID="btnClearContact" OnClick="btnClearContact_Click" />
                 </div>
 
             </div>
